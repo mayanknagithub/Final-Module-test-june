@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #search-container {
+    margin-bottom: 20px;
+  }
+  
+  #student-table {
+    margin-bottom: 20px;
+  }
+  
+  #form-container {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  #form-container h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    width: 200px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
